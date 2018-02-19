@@ -22,10 +22,8 @@
   "devDependencies": {},
   "dependencies": {
     "JSONStream": "^1.3.2",
-    "async": "^2.6.0",
     "classer": "^1.3.0",
     "colors": "^1.1.2",
-    "graphy": "git+ssh://blake@stko-git.geog.ucsb.edu:graphy.git#data_format",
     "mkdirp": "^0.5.1",
     "ogr2ogr": "^1.2.1",
     "pg": "^7.4.1",
