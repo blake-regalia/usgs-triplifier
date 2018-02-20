@@ -15,6 +15,7 @@ module.exports = {
 	prefixes: {
 		rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
 		rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
+		owl: 'http://www.w3.org/2002/07/owl#',
 		xsd: 'http://www.w3.org/2001/XMLSchema#',
 		qudt: 'http://qudt.org/schema/qudt/',
 		unit: 'http://qudt.org/vocab/unit/',
@@ -24,6 +25,7 @@ module.exports = {
 		usgs: `${P_DATA_URI}/usgs/ontology/`,
 		gnis: `${P_DATA_URI}/gnis/ontology/`,
 		gnisf: `${P_DATA_URI}/gnis/feature/`,
+		'gnisf-alias': `${P_DATA_URI}/gnis/feature-alias/`,
 		nhd: `${P_DATA_URI}/nhd/ontology/`,
 		nhdf: `${P_DATA_URI}/nhd/feature/`,
 		cegis: `${P_DATA_URI}/cegis/ontology/`,
