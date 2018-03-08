@@ -17,7 +17,12 @@
   ],
   "repository": "blake-regalia/usgs-triplifier",
   "scripts": {
-    "test": "gulp"
+    "preinstall": "git pull --force",
+    "update": "npm i",
+    "all": "npm run tnm && npm run gnis && npm run nhd",
+    "gnis": "./tools/download-gnis.sh",
+    "tnm": "node lib/tnm/download.js data/input/tnm/*.csv",
+    "nhd": "node lib/gdb/extract lib/nhd/convert.js data/input/nhd/*.zip"
   },
   "devDependencies": {},
   "dependencies": {

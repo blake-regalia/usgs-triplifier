@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # download data files
-gnis_version=${USGS_GNIS_VERSION_CODE:-"20180201"}
+gnis_version=${1:-$USGS_GNIS_VERSION_CODE}
+gnis_version=${gnis_version:-"20180201"}
 function download_gnis_file {
 	file="$2_${gnis_version}.zip"
 	curl --create-dirs \
