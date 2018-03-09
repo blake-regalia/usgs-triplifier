@@ -22,6 +22,7 @@ RUN apt-get -y update \
 
 # download GDAL 2
 ENV GDAL_VERSION 2.1.3
+RUN mkdirp -p /src/gdal2
 ADD http://download.osgeo.org/gdal/${GDAL_VERSION}/gdal-${GDAL_VERSION}.tar.gz /src/gdal2
 
 # install GDAL 2
