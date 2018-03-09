@@ -36,6 +36,7 @@ RUN cd /src/gdal2 \
     && rm -Rf /src/gdal2/*
 
 # special branch of graphy
+RUN npm i -g gulp
 RUN cd /src/ \
     && git clone -b data_format https://github.com/blake-regalia/graphy.js.git graphy \
     && cd graphy \
