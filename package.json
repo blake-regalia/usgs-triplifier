@@ -17,8 +17,9 @@
   ],
   "repository": "blake-regalia/usgs-triplifier",
   "scripts": {
-    "all": "npm run tnm && npm run gnis && npm run nhd",
-    "gnis": "./tools/download-gnis.sh && ./tools/triplify-gnis.sh",
+    "all": "npm run download-gnis && npm run tnm && npm run gnis && npm run nhd",
+    "download-gnis": "./tools/download-gnis.sh",
+    "gnis": "./tools/triplify-gnis.sh",
     "tnm": "./tools/download-tnm.sh",
     "nhd": "./tools/triplify-nhd.sh"
   },
