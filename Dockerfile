@@ -44,8 +44,9 @@ RUN cd /src/ \
     && gulp \
     && npm link
 
-# link graphy
-RUN npm link graphy
+# install software
+RUN npm i \
+    && npm link graphy
 
 # entrypoint
 ENTRYPOINT ["npm", "run"]
