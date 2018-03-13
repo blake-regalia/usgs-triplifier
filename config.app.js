@@ -5,13 +5,9 @@ const S_DATA_PATH = process.env.USGS_DATA_PATH || '/lod';
 const P_DATA_URI = `http://${S_DATA_HOST}${S_DATA_PATH}`;
 const P_GEOM_URI = `${P_DATA_URI}/geometry`;
 
-const P_SPARQL_ENDPOINT = 'http://usgs-stko.geog.ucsb.edu/sparql/select';
-
 module.exports = {
 	data_uri: P_DATA_URI,
 	geom_uri: P_GEOM_URI,
-	sparql_endpoint: P_SPARQL_ENDPOINT,
-	port: 3006,
 	prefixes: {
 		rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
 		rdfs: 'http://www.w3.org/2000/01/rdf-schema#',
