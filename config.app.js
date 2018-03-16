@@ -17,6 +17,7 @@ module.exports = {
 		unit: 'http://qudt.org/vocab/unit/',
 		geosparql: 'http://www.opengis.net/ont/geosparql#',
 		ago: 'http://awesemantic-geo.link/ontology/',
+		geonames: 'http://sws.geonames.org/',
 
 		usgs: `${P_DATA_URI}/usgs/ontology/`,
 		gnis: `${P_DATA_URI}/gnis/ontology/`,
