@@ -2,9 +2,8 @@
 
 # download data files
 gnis_version=${1:-$USGS_GNIS_VERSION_CODE}
-gnis_version=${gnis_version:-"20180201"}
 function download_gnis_file {
-	file="$2_${gnis_version}.zip"
+	file="$2.zip"
 	curl --create-dirs \
 		-H "Accept-Encoding: gzip, deflate" \
 		-H "Connection: keep alive" --keepalive-time 2 \
