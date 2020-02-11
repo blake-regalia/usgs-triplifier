@@ -25,18 +25,22 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "JSONStream": "^1.3.2",
-    "colors": "^1.1.2",
-    "csv-parse": "^2.0.4",
+    "@graphy/content.nt.read": "^3.2.2",
+    "@graphy/content.ttl.read": "^3.2.2",
+    "@graphy/content.ttl.write": "^3.2.2",
+    "@graphy/core.data.factory": "^3.2.2",
+    "JSONStream": "^1.3.5",
+    "colors": "^1.3.3",
+    "csv-parse": "^4.4.1",
     "mkdirp": "^0.5.1",
-    "ogr2ogr": "^1.2.1",
-    "pg": "^7.4.1",
-    "pg-cursor": "^1.3.0",
-    "progress": "^2.0.0",
-    "request": "^2.83.0",
+    "ogr2ogr": "^1.4.0",
+    "pg": "^7.11.0",
+    "pg-cursor": "^2.0.0",
+    "progress": "^2.0.3",
+    "request": "^2.88.0",
     "request-progress": "^3.0.0",
-    "unzip": "^0.1.11",
-    "worker": "^0.3.5",
-    "yauzl": "^2.9.1"
+    "unzipper": "^0.9.15",
+    "worker": "^0.3.12",
+    "yauzl": "^2.10.0"
   }
 }
