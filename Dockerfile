@@ -1,5 +1,5 @@
 # Dockerfile for USGS Triplifier
-FROM node:12-stretch
+FROM node:13-stretch
 MAINTAINER Blake Regalia <blake.regalia@gmail.com>
 
 # source code

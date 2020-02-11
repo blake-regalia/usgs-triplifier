@@ -1,9 +1,9 @@
 
-const S_DATA_HOST = process.env.USGS_DATA_HOST || 'usgs.link';
+const S_DATA_HOST = process.env.USGS_DATA_HOST || 'gnis-ld.org';
 const S_DATA_PATH = process.env.USGS_DATA_PATH || '';
 
 const P_DATA_URI = `https://${S_DATA_HOST}${S_DATA_PATH}`;
-const P_RDF_URI = `${P_DATA_URI}/rdf`;
+const P_RDF_URI = `${P_DATA_URI}/lod`;
 const P_GEOM_URI = `${P_DATA_URI}/geometry`;
 
 module.exports = {
