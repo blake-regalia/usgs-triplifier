@@ -1,5 +1,5 @@
 # Dockerfile for USGS Triplifier
-FROM node:13-stretch
+FROM node:14-stretch
 MAINTAINER Blake Regalia <blake.regalia@gmail.com>
 
 # source code
@@ -14,6 +14,7 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ stretch-pgdg main" > /etc
 RUN apt-get -y update \
     && apt-get upgrade -y \
     && apt-get install -yq \
+        curl \
         git \
         libpq-dev \
         postgresql-client-common \
